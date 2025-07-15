@@ -1,0 +1,44 @@
+Enar AI Project Explanation Plan
+===============================
+
+1. Project Overview
+   - Brief introduction to the assistant and its purpose
+   - What problems it solves or automates
+
+2. Tech Stack & Key Libraries
+   - Python
+   - LangGraph
+   - Pydantic
+   - OpenAI (or other LLM)
+
+3. High-Level System Flow
+   - User input
+   - State graph workflow
+   - AI-driven decision making
+
+4. Key Components
+   a. app.py (entry point, user interaction)
+   b. graph.py (workflow definition)
+   c. schemas.py (data validation)
+   d. nodes/identify_tn.py (AI intent identification)
+   e. Other nodes (get_coords, get_rect, get_screensize)
+
+5. How the AI Decision Works
+   - Prompting the LLM
+   - Structured output (tool_needed, explanation)
+   - Example of a decision
+
+6. Extending the System
+   - Adding new tools/nodes
+   - Modifying the AI prompt
+
+7. Why This is a Cool Generative AI Example
+   - LLMs for logic, not just chat
+   - Structured outputs
+   - Easy extensibility
+
+8. Live Demo or Example Conversation
+   - Walkthrough of a sample user request and AI response
+
+9. Q&A / Discussion
+   - Invite questions about the architecture, LLM use, or extending the project 
