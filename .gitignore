@@ -1,0 +1,4 @@
+# Prevent secrets and compiled files from being tracked
+.env
+__pycache__/
+*.pyc
